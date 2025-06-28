@@ -63,13 +63,15 @@ npm start
 
 ## 📷 Screenshots
 
-| Image Generator | Ask AI | Recipe Generator |
-|-----------------|--------|------------------|
-| ![Image Generator](screenshots/image-generator.png) | ![Ask AI](screenshots/ask-ai.png) | ![Recipe Generator](screenshots/recipe-generator.png) |
+| Chat Options Flow | Spring AI Chat API | Completion Clients |
+|-------------------|--------------------|---------------------|
+| ![](./screenshots/chat-options-flow.jpg) | ![](./screenshots/spring-ai-chat-api.jpg) | ![](./screenshots/spring-ai-chat-completions-clients.jpg) |
 
-your-repo/
-├── README.md
-├── screenshots/
-│   ├── image-generator.png
-│   ├── ask-ai.png
-│   └── recipe-generator.png
+---
+
+### 📨 Additional View
+
+![Message API Flow](./screenshots/spring-ai-message-api.jpg)
+
+
+
