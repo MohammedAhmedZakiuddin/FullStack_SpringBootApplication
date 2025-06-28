@@ -6,7 +6,7 @@ Leverage the power of OpenAI and modern Spring Boot frameworks in this interacti
 
 ## 🔥 Live Preview
 
-> 🚧 *(Optional: Add a link here if hosted on Vercel, Netlify, or Render)*
+> 🚧 *Coming Soon*
 
 ---
 
@@ -17,7 +17,7 @@ Leverage the power of OpenAI and modern Spring Boot frameworks in this interacti
 - 🍽️ **Recipe Generator** — Generate creative recipes based on ingredients and dietary restrictions.
 - 📦 Layered architecture: Controller → Service → Config
 - ⚙️ Dynamic control over model parameters (temperature, max tokens, etc.)
-- 🌐 Cross-Origin Resource Sharing (CORS) and exception handling configured
+- 🌐 Cross-Origin Resource Sharing (CORS) and exception handling are configured
 - 🧑‍💻 React frontend with three distinct routes/views
 - 📡 Backend and frontend deployed independently
 
@@ -52,3 +52,24 @@ Leverage the power of OpenAI and modern Spring Boot frameworks in this interacti
 ```bash
 git clone https://github.com/your-username/spring-ai-fullstack.git
 cd spring-ai-fullstack/backend
+mvn spring-boot:run
+```
+### 🖼 Frontend Setup
+```bash
+cd ../frontend
+npm install
+npm start
+```
+
+## 📷 Screenshots
+
+| Image Generator | Ask AI | Recipe Generator |
+|-----------------|--------|------------------|
+| ![Image Generator](screenshots/image-generator.png) | ![Ask AI](screenshots/ask-ai.png) | ![Recipe Generator](screenshots/recipe-generator.png) |
+
+your-repo/
+├── README.md
+├── screenshots/
+│   ├── image-generator.png
+│   ├── ask-ai.png
+│   └── recipe-generator.png
